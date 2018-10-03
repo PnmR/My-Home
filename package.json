@@ -1,0 +1,19 @@
+{
+  "name": "myHome",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Poonam Rai",
+  "license": "MIT",
+  "dependencies": {
+    "wdio-selenium-standalone-service": "^0.0.10",
+    "webdriverio": "^4.13.2"
+  },
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.6.3"
+  },
+  "scripts" :
+  {
+  "test" : "wdio wdio.conf.js"
+  }
+
+}
